@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+groupeleblancgroup.com	TRUE	/	FALSE	1999999999	idl	a%3A1%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%220ee9d19f2aa391441d5c2aacc696c743%22%3B%7D
+prospek.ca	TRUE	/	FALSE	1999999999	prospek_last_visit	1496564681
+prospek.ca	TRUE	/	FALSE	1999999999	prospek_visit_counter	1
+

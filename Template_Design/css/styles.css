@@ -1,0 +1,8 @@
+body{
+    background-color: #CCCDBF;
+}
+
+.header{
+    background-image: url("../images/top_bg.jgp");
+    background-repeat: repeat-y;
+}

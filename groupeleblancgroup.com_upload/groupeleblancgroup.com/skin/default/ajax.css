@@ -1,0 +1,232 @@
+/* CSS Document */
+/**************************************/
+/*            bienvenue               */
+/**************************************/
+
+h2.bienvenue
+{
+	color:#97acd4;
+}
+span
+{
+	color:#666666;
+	font-weight:bold;
+}
+ul.bienvenue
+{
+	color: #97acd4;
+	text-align:left;
+	margin-left:60px;
+}
+ul.bienvenue li span
+{
+	color: #666666;
+	font-weight:normal;
+}
+ul.bienvenue span.stitre
+{
+	font-weight:bold;
+}
+h3.bienvenue
+{
+	color: #97acd4;	
+}
+
+
+/**************************************/
+/*          Pages                     */
+/**************************************/
+body
+{
+	margin: 0px;
+	background-color:#191919;
+}
+
+
+#bandeau_haut
+{
+	background-color: #97acd4;
+	height: 18px;
+	position:fixed;
+	width:100%;
+	top: 0;
+	left: 0;
+}
+#bandeau_haut a
+{
+	font-size:10px;
+	color:#FFFFFF;
+	text-decoration:none;
+	margin-top:-10px;
+}
+#bandeau_haut a:hover
+{
+	text-decoration:underline;
+}
+
+#divmenu
+{
+	position:fixed;
+	top: 38px;
+	left:20px;
+	width: 250px;
+}
+
+#divmenu h1
+{
+	font-family:"Trebuchet MS", Verdana, sans-serif;
+	margin-left:38px;
+	margin-bottom:0px;padding-bottom:0px;
+}
+#divmenu h1 a
+{
+	font-family:"Trebuchet MS", Verdana, sans-serif;
+	color:#FFFFFF;
+	font-size:26px;
+	text-decoration:none;
+}
+#divmenu h1 a em
+{
+	color:#97acd4;
+}
+#divmenu p
+{
+	padding-top:0px;margin-top:-10px;
+	font-family:"Trebuchet MS", Verdana, sans-serif;
+	margin-left:38px;
+}
+
+#divmenu p a
+{
+	font-family:"Trebuchet MS", Verdana, sans-serif;
+	color:#FFFFFF;
+	font-size:12px;
+	text-decoration:none;
+}
+
+* html div#divmenu 
+{
+	top: 100px;
+	left:20px;
+	width: 250px;
+	position:absolute;
+}
+
+
+
+#menu
+{
+	list-style:none;
+	width:180px;
+}
+
+#menu li
+{
+	background-color:#333333;
+	margin-top:1px;
+	height:30px;
+}
+#menu li a
+{
+	display:block;
+	background-color:#333333;
+	width:169px;height: 22px;
+	color:#CCCCCC;
+	font-size:12px;font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+	text-decoration:none;
+	padding-top:8px;
+	padding-left:10px;
+}
+#menu li a:hover
+{
+	background-color:#97acd4;
+	color:#191919;
+	/*text-decoration:underline;*/
+}
+
+#divcontenu
+{
+	margin-left:350px;
+	margin-top:70px;
+	font-size:12px;font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+	color:#FFFFFF;
+}
+#divcontenu .article
+{
+	width:85%;
+	margin-bottom:20px;padding-bottom:15px;
+	border-bottom:1px solid #333333;
+}
+#divcontenu .article p a
+{
+	color:#97acd4;
+}
+#divcontenu .article p a:hover
+{
+	font-style:italic;
+}
+#divcontenu .article h2
+{
+	font-family:"Trebuchet MS", Verdana, sans-serif;font-style:italic;
+	color:#97acd4;
+	font-size: 24px;
+	padding:0;
+	margin:0 0 5px 0;
+}
+#divcontenu .article h3
+{
+	font-family:"Trebuchet MS", Verdana, sans-serif;font-style:italic;
+	color:#97acd4;
+	font-size: 20px;
+	padding:0;
+	margin:0 0 5px 0;
+}
+#divcontenu .article h4
+{
+	font-family:"Trebuchet MS", Verdana, sans-serif;font-style:italic;
+	color:#97acd4;
+	font-size: 16px; font-weight:bold;
+	padding:0;
+	margin:0 35px 5px 0;
+	text-align:right;
+}
+#signature
+{
+	font-family:"Trebuchet MS", Verdana, sans-serif;font-style:italic;
+	color:#97acd4;
+	font-size: 16px;
+	padding:0;
+	margin:0 35px 5px 0;
+	text-align:right;
+}
+#divcontenu .article ul
+{
+	color:#97acd4;
+}
+#divcontenu .article ul li
+{
+
+}
+#divcontenu .article ul li a
+{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+#divcontenu .article ul li a:hover
+{
+	color:#97acd4;
+	font-style:italic;
+	text-decoration:underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+

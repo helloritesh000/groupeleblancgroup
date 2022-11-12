@@ -1,0 +1,22 @@
+#diapos{
+	position:absolute;
+	width:707px;
+	height:244px;
+}
+.diapo{
+	position:absolute;
+	overflow:hidden;
+	height:244px;
+	width:707px;
+	padding:0px 0px 0px 0px;
+}
+.diaporama_js{
+	height:244px;
+	overflow:hidden;
+}
+.diaporama_js .diapo img{
+	display:block;
+}
+.diapo p{
+	margin-left:5px;
+}

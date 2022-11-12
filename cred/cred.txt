@@ -1,0 +1,8 @@
+DB:gritserv_groupeleblancgroup_ritesh
+User:gritserv_ritesh
+Pass:}UyFlWv}^dgw
+http://gritserver.in/groupeleblancgroup/
+
+WP-admin
+User:admin
+pass:&aZprFAfaAkDtnajj47^q4(D

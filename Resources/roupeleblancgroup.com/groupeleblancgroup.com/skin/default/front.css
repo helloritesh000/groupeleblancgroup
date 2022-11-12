@@ -1,0 +1,470 @@
+
+body{
+	margin:				0;
+	color:				#000000;
+	background-color:	#CCCDBF;
+}
+
+form{
+	margin:0px;
+}
+
+.flyHand{		cursor:	move;	}
+.flyAuto{		cursor:	auto;	}
+.flyPointer{	cursor: pointer;}
+
+
+/* ************************* FRONT ************************* */
+
+/* ************************* FONT FRONT ************************* */
+
+.titleHeader 				{ color:#FFFFFF; font-family:Trebuchet MS,Arial, Helvetica, sans-serif; font-size:10px; text-decoration: none; background:transparent; font-weight: bold;}
+.titleHeader A:link 		{ color:#FFFFFF; text-decoration: none; background:transparent; font-weight: bold;}
+.titleHeader A:visited 		{ color:#FFFFFF; text-decoration: none; background:transparent; font-weight: bold;}
+.titleHeader A:active 		{ color:#FFFFFF; text-decoration: none; background:transparent; font-weight: bold;}
+.titleHeader A:hover 		{ color:#FFFFFF; text-decoration: underline; background:transparent; font-weight: bold;}
+
+.titleHeader_green 				{ color:#A9B341; }
+.titleHeader_green A:link 		{ color:#A9B341; }
+.titleHeader_green A:visited 	{ color:#A9B341; }
+.titleHeader_green A:active 	{ color:#A9B341; }
+.titleHeader_green A:hover 		{ color:#A9B341; }
+
+
+.titleFooter 				{ color:#555555; font-family:Trebuchet MS,Arial, Helvetica, sans-serif; font-size:10px; text-decoration: none; background:transparent;}
+.titleFooter A:link 		{ color:#A9B341; text-decoration: none; background:transparent;}
+.titleFooter A:visited 		{ color:#A9B341; text-decoration: none; background:transparent;}
+.titleFooter A:active 		{ color:#A9B341; text-decoration: none; background:transparent;}
+.titleFooter A:hover 		{ color:#A9B341; text-decoration: underline; background:transparent;}
+
+.titleFooterOver 			{ color:#A9B341; font-family:Trebuchet MS,Arial, Helvetica, sans-serif; font-size:10px; text-decoration: underline; background:transparent;}
+.titleFooterOver A:link 	{ color:#A9B341; text-decoration: underline; background:transparent;}
+.titleFooterOver A:visited 	{ color:#A9B341; text-decoration: underline; background:transparent;}
+.titleFooterOver A:active 	{ color:#A9B341; text-decoration: underline; background:transparent;}
+.titleFooterOver A:hover 	{ color:#A9B341; text-decoration: underline; background:transparent;}
+
+.titleGrey 					{ color:#666666; font-family:Trebuchet MS,Arial, Helvetica, sans-serif; font-size:15px; text-decoration: none; background:transparent; font-weight:bold;}
+.titleGrey A:link 			{ color:#666666; text-decoration: none; background:transparent; }
+.titleGrey A:visited 		{ color:#666666; text-decoration: none; background:transparent; }
+.titleGrey A:active 		{ color:#666666; text-decoration: none; background:transparent; }
+.titleGrey A:hover 			{ color:#666666; text-decoration: underline; background:transparent; }
+
+.titleGreyBold 				{ color:#666666; font-family:Trebuchet MS,Arial, Helvetica, sans-serif; font-size:15px; text-decoration: none; background:transparent; font-weight: bold; }
+.titleGreyBold A:link 		{ color:#666666; text-decoration: none; background:transparent; font-weight: bold; }
+.titleGreyBold A:visited 	{ color:#666666; text-decoration: none; background:transparent; font-weight: bold; }
+.titleGreyBold A:active 	{ color:#666666; text-decoration: none; background:transparent; font-weight: bold; }
+.titleGreyBold A:hover 		{ color:#666666; text-decoration: underline; background:transparent; font-weight: bold; }
+
+.titleRed 					{ color:#B81C37; font-family:Trebuchet MS,Arial, Helvetica, sans-serif; font-size:15px; text-decoration: none; background:transparent; }
+.titleRed A:link 			{ color:#B81C37; text-decoration: none; background:transparent; }
+.titleRed A:visited 		{ color:#B81C37; text-decoration: none; background:transparent; }
+.titleRed A:active 			{ color:#B81C37; text-decoration: none; background:transparent; }
+.titleRed A:hover 			{ color:#B81C37; text-decoration: underline; background:transparent; }
+
+.titleRedBold 				{ color:#B81C37; font-family:Trebuchet MS,Arial, Helvetica, sans-serif; font-size:15px; text-decoration: none; background:transparent; font-weight: bold; }
+.titleRedBold A:link 		{ color:#B81C37; text-decoration: none; background:transparent; font-weight: bold; }
+.titleRedBold A:visited 	{ color:#B81C37; text-decoration: none; background:transparent; font-weight: bold; }
+.titleRedBold A:active 		{ color:#B81C37; text-decoration: none; background:transparent; font-weight: bold; }
+.titleRedBold A:hover 		{ color:#B81C37; text-decoration: underline; background:transparent; font-weight: bold; }
+
+
+.textGrey 					{ color:#666666; font-family:Trebuchet MS,Arial, Helvetica, sans-serif; font-size:12px; text-decoration: none; background:transparent; }
+.textGrey A:link 			{ color:#A9B341; text-decoration: none; background:transparent; }
+.textGrey A:visited 		{ color:#A9B341; text-decoration: none; background:transparent; }
+.textGrey A:active 			{ color:#A9B341; text-decoration: none; background:transparent; }
+.textGrey A:hover 			{ color:#A9B341; text-decoration: underline; background:transparent; }
+
+.textGreyBold 				{ color:#666666; font-family:Trebuchet MS,Arial, Helvetica, sans-serif; font-size:13px; text-decoration: none; background:transparent; font-weight: bold; }
+.textGreyBold A:link 		{ color:#A9B341; text-decoration: none; background:transparent; font-weight: bold; }
+.textGreyBold A:visited 	{ color:#A9B341; text-decoration: none; background:transparent; font-weight: bold; }
+.textGreyBold A:active 		{ color:#A9B341; text-decoration: none; background:transparent; font-weight: bold; }
+.textGreyBold A:hover 		{ color:#A9B341; text-decoration: underline; background:transparent; font-weight: bold; }
+
+.textError 					{ color:#FF0000; font-family:Trebuchet MS,Arial, Helvetica, sans-serif; font-size: 13px; text-decoration: none; background:transparent; }
+.textError A:link 			{ color:#FF0000; text-decoration: none; background:transparent; }
+.textError A:visited 		{ color:#FF0000; text-decoration: none; background:transparent; }
+.textError A:active 		{ color:#FF0000; text-decoration: none; background:transparent; }
+.textError A:hover 			{ color:#FF0000; text-decoration: underline; background:transparent; }
+
+.textErrorBold 				{ color:#FF0000; font-family:Trebuchet MS,Arial, Helvetica, sans-serif; font-size: 13px; text-decoration: none; background:transparent; font-weight: bold; }
+.textErrorBold A:link 		{ color:#FF0000; text-decoration: none; background:transparent; font-weight: bold; }
+.textErrorBold A:visited 	{ color:#FF0000; text-decoration: none; background:transparent; font-weight: bold; }
+.textErrorBold A:active 	{ color:#FF0000; text-decoration: none; background:transparent; font-weight: bold; }
+.textErrorBold A:hover 		{ color:#FF0000; text-decoration: underline; background:transparent; font-weight: bold; }
+
+
+.textGreen 					{ color:#A9B341; font-family:Trebuchet MS,Arial, Helvetica, sans-serif; font-size:12px; text-decoration: underline; background:transparent; }
+.textGreen A:link 			{ color:#A9B341; text-decoration: underline; background:transparent; }
+.textGreen A:visited 		{ color:#A9B341; text-decoration: underline; background:transparent; }
+.textGreen A:active 		{ color:#A9B341; text-decoration: underline; background:transparent; }
+.textGreen A:hover 			{ color:#A9B341; text-decoration: underline; background:transparent; }
+
+.textFloor					{ color:#FFFFFF; font-family:Trebuchet MS,Arial, Helvetica, sans-serif; font-size:12px; text-decoration: none; font-weight:bold; background:transparent;}
+.textFloor A:link 			{ color:#FFFFFF; text-decoration: none; background:transparent; }
+.textFloor A:visited 		{ color:#FFFFFF; text-decoration: none; background:transparent; }
+.textFloor A:active 		{ color:#FFFFFF; text-decoration: none; background:transparent; }
+.textFloor A:hover 			{ color:#FFFFFF; text-decoration: underline; background:transparent; }
+
+/* ************************* FONT FRONT END ************************* */
+
+/* ************************* DESIGN FRONT ************************* */
+
+.text{
+	text-align:justify;
+	padding-left:5px;
+}
+
+.headerPadding{
+	padding-left:			15px;
+	padding-right:			15px;
+	cursor: 				pointer;
+}
+
+.headerPaddingOver{
+	padding-left:			15px;
+	padding-right:			15px;
+	background:				url('images/header_over.jpg');
+	cursor: 				pointer;
+}
+
+.headerPaddingDown{
+	padding-left:			15px;
+	padding-right:			15px;
+	background:				url('images/header_down.jpg');
+	cursor: 				pointer;
+}
+.headerGreyFadeBg{
+	background-color : 		#999999;
+}
+
+.footerPadding{
+	padding-left:			15px;
+	padding-right:			15px;
+}
+
+.footerPaddingLeft{
+	padding-left:			15px;
+}
+
+.menuBg{
+	background-color : 		#666666;
+}
+
+.backgroundContent{
+	background-color:		#F4F3EE;
+}
+
+.frameContent{
+	background:url('images/section.jpg') no-repeat;
+	padding-right:15px;
+	padding-left:15px;
+}
+
+.sectionTitle{
+	height:65px;
+}
+
+.sectionSubTitle{
+	height:40px;
+	background:url('images/blanc_bg.jpg') repeat-y right;
+	padding-right:5px;
+}
+
+.floorOver{
+	background:#B7CA00;
+}
+
+.floor{
+	background:#555555;
+}
+
+div#buildingImg{
+	position:absolute;
+	float:right;
+	height:106px;
+	width:232px;
+	margin-top:-80px !important;
+	margin-top:-80px;
+	text-align:right;
+}
+
+.faqOver{
+	background:url('images/blanc_bg.jpg') repeat-y right;
+}
+.faq{
+	background:transparent;
+}
+.buildingOver{
+	background:url('images/buildingBg.jpg') repeat-y right;
+}
+.sitemap{
+	background:url('images/blanc_bg.jpg') repeat-y right;
+	height:30px;
+	padding-right:5px;
+}
+.buildingBg{
+	background:url('images/blanc_bg.jpg') repeat-y right;
+	height:30px;
+	padding-right:5px;
+}
+.topTrait{
+	background:url('images/top.jpg') repeat-y right;
+}
+.buildingAvailable{
+	background:url('images/logo_mini.png') left 5px no-repeat;
+	padding-left:25px;
+	display:block;
+	float:left;
+}
+.buildingAvailableOver{
+	background:url('images/blanc_bg2.png') left top no-repeat;
+	min-width:106px;
+	display:block;
+	float:left;
+	padding-left:25px;
+	padding-right:7px;
+
+}
+
+* html .buildingAvailableOver{
+	width:106px;
+}
+/* ************************* NEWS **************************** */
+
+.newsTraitH{
+	background:url('images/trait_h.jpg') repeat-x;
+	height:2px;
+}
+
+.newsTraitV{
+	background:url('images/trait_v.jpg') repeat-y;
+	width:2px;
+}
+
+.newsTitle{
+	height:42;
+	padding-left:7px;
+	background:url('images/news_title.jpg') repeat-x;
+}
+
+.newsBox{
+	background:url('images/news_text.jpg') repeat-x;
+	padding-left:7px;
+}
+div#newsImg{
+	position:absolute;
+	float:right;
+	height:106px;
+	width:100px;
+	margin-top:-85px;
+	margin-left:145px;
+	text-align:right;
+}
+/* ************************* DESIGN FRONT END ************************* */
+
+/* ************************* FRONT END ************************* */
+
+
+
+
+/* ************************* TEXTBOX ************************* */
+
+.textbox{
+	font-family:	Trebuchet MS, Trebuchet, Arial, sans-serif;
+	font-size:		12px;
+	font-weight:	normal;
+	color:			#000000;
+	border:			solid 1px #A6A6A1;
+	background:		#FFFFFF;
+	padding-left:	2px;
+	padding-right:	0px;
+	text-align:		left;
+	text-indent:	0;
+	width:			99%;
+}
+
+.textboxMini{
+	font-family: 	Trebuchet MS, Trebuchet, Arial, sans-serif;
+	font-size:		12px;
+	font-weight:	normal;
+	color:			#000000;
+	border:			solid 1px #A6A6A1;
+	background:		#FFFFFF;
+	padding-left:	2px;
+	padding-right:	0px;
+	text-align:		left;
+	text-indent:	0;
+}
+
+.textbox:disabled, .textboxMini:disabled {
+	color:			#aaaaaa;
+}
+
+.textbox:focus, .textboxMini:focus {
+	border:			solid 1px #464644;
+}
+
+/* ************************* TEXTBOX END ************************* */
+
+
+/* ************************* GLOBAL ************************* */
+
+.frameFormDark{
+    border: 				1px solid #969698;
+}
+
+.frameFormDarkTop{
+    border-top: 			1px solid #969698;
+}
+
+.frameFormDarkBottom{
+    border-bottom: 			1px solid #969698;
+}
+
+.frameFormDarkSide{
+    border-left: 			1px solid #969698;
+	border-right: 			1px solid #969698;
+}
+
+.frameFormDarkSideTop{
+    border-left: 			1px solid #969698;
+	border-right: 			1px solid #969698;
+    border-top: 			1px solid #969698;
+}
+
+.frameFormDarkSideBottom{
+    border-left: 			1px solid #969698;
+	border-right: 			1px solid #969698;
+    border-bottom: 			1px solid #969698;
+}
+
+.adminButtom{
+	padding-left:			20px;
+	padding-right:			20px;
+    background-color:		transparant;
+}
+
+.adminButtomOver{
+	padding-left:			20px;
+	padding-right:			20px;
+    background-color:		#FFFFFF;
+    cursor:					pointer;
+}
+
+/* ************************* GLOBAL END ************************* */
+
+
+/* ************************* CSS DRAG AND DROP LIST ************************* */
+
+.drag_drop_list{
+	list-style-type: 	none;
+	padding-left:		0px;
+	padding-right:		0px;
+	padding-top:		0px;
+	padding-bottom:		0px;
+	margin: 			0px;
+    border: 			0px solid #ffffff;
+	cursor:				move;
+}
+
+
+/* ************************* CSS PAGINATION ************************* */
+div.pagination
+{
+    width:	550px;
+    padding: 3px;
+    margin: 3px;
+}
+
+div.pagination a
+{
+    padding: 2px 5px 2px 5px;
+    margin: 2px;
+    border: 1px solid #666666;
+    text-decoration: none; /* no underline */
+    color: #666666;
+}
+
+div.pagination a:hover, div.pagination a:active
+{
+    border: 1px solid #000099;
+    background-color: #9B9B9B;
+    color: #FFFFFF;
+}
+
+div.pagination span.current
+{
+    padding: 2px 5px 2px 5px;
+    margin: 2px;
+    border: 1px solid #666666;
+    background-color: #9B9B9B;
+    color: #FFFFFF;
+}
+div.pagination span.disabled
+{
+    padding: 2px 5px 2px 5px;
+    margin: 2px;
+    border: 1px solid #EEE;
+    color: #DDD;
+}
+
+
+/* ************************* CSS SEARCH LIST COLUMN ************************* */
+div.search_list_column_overlay
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+	overflow: auto;
+
+	padding:0px;
+	margin:0px;
+}
+div.search_list_column_container
+{
+    position: absolute;
+}
+
+div.search_list_column
+{
+    position: relative;
+    top: 5px;
+    left: 3px;
+    width: 173px;
+    border: 1px solid #000000;
+    background-color: #FFFFFF;
+    padding: 2px 5px 3px 5px;
+}
+
+a.sup_link:link, a.sup_link:visited, a.sup_link:active{
+	text-decoration:none;
+	display:block;
+	float:left;
+	line-height:18px;
+	height:18px;
+	padding:0px 0px 3px 0px;
+}
+
+a.sup_link:hover{
+	border-bottom:1px solid #A9B341;
+	text-decoration:none;
+	padding:0px 0px 3px 0px;
+}
+
+form input[type="text"],form input[type="email"] {
+	width: 200px;
+}
+
+form textarea{
+	width: 280px;
+	height: 150px;
+}
+
+form input[type="submit"] {
+}
+
+.marker{
+	background-color: Yellow;
+}

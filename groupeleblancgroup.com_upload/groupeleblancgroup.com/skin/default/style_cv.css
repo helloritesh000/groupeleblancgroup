@@ -1,0 +1,219 @@
+.accordionTabTitleBar {
+  	font-size           : 12px;
+	padding             : 4px 6px 4px 6px;
+  	border-style        : solid none solid none;
+	border-top-color    : #97acd4;
+	border-bottom-color : #182052;
+  	border-width        : 1px 0px 1px 0px;
+	background:#97acd4;
+	cursor:pointer;
+}
+
+.accordionTabTitleBarHover {
+  	font-size        : 11px;
+	background-color : #97acd4;
+	color            : #000000;
+}
+
+.accordionTabContentBox {
+   font-size        : 11px;
+   border           : 1px solid #97acd4;
+   border-top-width : 0px;
+   padding          : 0px 8px 0px 8px;
+}
+
+
+#interface{
+	padding: 0px 50px 15px 50px;
+	border: 1px solid #cccccc;
+}
+#interface h1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16pt;
+	background-color: white;
+	color: #483D8B;
+	/*text-shadow: #B0E0E6;*/
+
+}
+#interface h2{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14pt;
+	color: #483D8B;
+	margin: 0px 0px 0px 0px;
+	background-color: white;
+}
+
+#identite{
+	width: 70%;
+}
+#nom{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #97acd4;
+	margin-top: 0px;
+}
+#adresse{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+#site{
+ 	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	/*color: #483D8B;*/
+	color: #FFFFFF;
+}
+#site a{color: #97acd4;text-decoration: none;}
+#site a:hover{text-decoration: underline;font-style:italic;}
+#mail{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	/*color: #483D8B;*/
+	color: #FFFFFF;
+}
+#mail a{color: #97acd4;text-decoration: none;}
+#mail a:hover{text-decoration: underline;font-style:italic;}
+#photo{
+	position:  relative;
+	float: right;
+	top:-118px;
+}
+#photo img{
+	border: 2px solid #cccccc;
+}
+
+#contenu_cv{
+	margin-top: 50px;
+}
+.titre_chapitre{
+	background-color: #FAF0E6;
+	border: 2px solid #cccccc;
+	text-align: left;
+	padding: 0px 0px 0px 25px;
+	color:#c0db59;
+}
+.date{
+	margin-top: 10px;
+	margin-left: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	color:  #97acd4;
+}
+.ligne_formation{
+	margin-top: 10px;
+	margin-left: 90px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	color:  #FFFFFF;
+}
+#contenu_afpa
+{
+	font-size:10px;
+	font-weight:normal;
+	display:none;
+}
+#lien_contenu_afpa a
+{
+	margin-left:30px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	color:  #FF6600;
+}
+#formation h2{
+	background-color: #FAF0E6;
+	color:#FFFFFF;
+}
+#competences{
+	margin-top: 20px;
+}
+#competences h2{
+	background-color: #FAF0E6;
+	color:#FFFFFF;
+}
+.ligne_competences{
+	
+	margin-top: 10px;
+	margin-left: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	color:  #FFFFFF;
+}
+.liste_competences_1{
+	margin-top: 10px;
+	margin-left: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	color:  #97acd4;
+	list-style-type:disc;
+}
+.liste_competences_1 li{
+	margin-top: 0px;
+	margin-left: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	color:  #97acd4;
+	list-style-type:disc;
+}
+.liste_competences_1 li span,.liste_competences_2 li span{
+	color:#FFFFFF;
+}
+.liste_competences_2{
+	margin-top: 0px;
+	margin-left: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	color:  #97acd4;
+	list-style-type:square;
+}
+.liste_competences_2 li{
+	margin-top: 0px;
+	margin-left: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	color:  #97acd4;
+	list-style-type:square;
+}
+#experience{
+	margin-top: 20px;
+}
+#experience h2{
+	background-color: #FAF0E6;
+	color:#483D8B;
+}
+.ligne_experience{
+	margin-top: 10px;
+	margin-left: 100px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	color:  #708090;
+	background-color: white;
+}
+#divers{
+	margin-top: 20px;
+}
+#divers h2{
+	background-color: #FAF0E6;
+	color:#483D8B;
+}
+.ligne_divers{
+	margin-top: 10px;
+	margin-left: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	color:  #708090;
+	background-color: white;
+}
